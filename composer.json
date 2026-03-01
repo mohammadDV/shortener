@@ -1,0 +1,23 @@
+{
+  "name": "mohammaddv/shortener",
+  "description": "Production-ready URL shortener for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mohammaddv\\Shortener\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^12.0",
+    "illuminate/database": "^12.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mohammaddv\\Shortener\\ShortenerServiceProvider"
+      ]
+    }
+  }
+}
